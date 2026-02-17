@@ -26,20 +26,29 @@
 
         .container {
             background: white;
-            padding: 40px 30px;
-            border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-            max-width: 400px;
-            width: 90%;
+            padding: 50px 35px;
+            border-radius: 16px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.06);
+            max-width: 420px;
+            width: 92%;
             text-align: center;
+        }
+
+        /* Logo Premium */
+        .logo-clinica {
+            width: 65%;
+            max-width: 280px;
+            height: auto;
+            margin-bottom: 30px;
         }
 
         h1 {
             font-weight: 600;
-            font-size: 1.8rem;
+            font-size: 1.9rem;
             color: var(--primary);
-            margin-bottom: 5px;
+            margin-bottom: 6px;
             letter-spacing: -0.5px;
+            margin-top: 0;
         }
 
         .specialty {
@@ -47,8 +56,8 @@
             color: var(--accent);
             text-transform: uppercase;
             font-size: 0.85rem;
-            letter-spacing: 1px;
-            margin-bottom: 30px;
+            letter-spacing: 1.2px;
+            margin-bottom: 35px;
             display: block;
         }
 
@@ -58,10 +67,10 @@
             justify-content: center;
             text-decoration: none;
             color: var(--primary);
-            padding: 15px;
-            margin-bottom: 12px;
+            padding: 16px;
+            margin-bottom: 14px;
             border: 1px solid #eee;
-            border-radius: 8px;
+            border-radius: 10px;
             transition: all 0.3s ease;
             font-weight: 400;
         }
@@ -85,20 +94,23 @@
         }
 
         footer {
-            margin-top: 25px;
+            margin-top: 30px;
             font-size: 0.75rem;
             color: #999;
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
+    <img src="logo.png" alt="Logo Dr. Pedro Rizzo" class="logo-clinica">
+    
     <h1>Dr. Pedro Rizzo</h1>
     <span class="specialty">Cirurgia Ginecológica<br>Minimamente Invasiva</span>
 
     <a href="https://wa.me/5517936198002" class="contact-link btn-whatsapp" target="_blank">
-        Agendar Consulta via WhatsApp
+        Contato via WhatsApp
     </a>
 
     <a href="mailto:contato@pedrorizzo.com.br" class="contact-link">
@@ -110,7 +122,8 @@
     </a>
 
     <footer>
-        CRM-SP [Seu CRM] | RQE [Seu RQE]
+        CRM-SP 158.148 | RQE 65406<br>
+        Barretos - SP
     </footer>
 </div>
 
