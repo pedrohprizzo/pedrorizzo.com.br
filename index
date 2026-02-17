@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Pedro Rizzo | Cirurgia Ginecológica</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2c3e50; /* Azul escuro profissional */
+            --accent: #a89078;  /* Tom champagne/nude para elegância */
+            --bg: #f9f9f9;
+            --text: #333;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+        }
+
+        /* Estilização do Logo */
+        .logo-clinica {
+            max-width: 120px; /* Ajuste o tamanho conforme necessário */
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-weight: 600;
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin-bottom: 5px;
+            letter-spacing: -0.5px;
+            margin-top: 0;
+        }
+
+        .specialty {
+            font-weight: 300;
+            color: var(--accent);
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+            display: block;
+        }
+
+        .contact-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: var(--primary);
+            padding: 15px;
+            margin-bottom: 12px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-weight: 400;
+        }
+
+        .contact-link:hover {
+            background-color: var(--primary);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .btn-whatsapp {
+            background-color: #25d366;
+            color: white;
+            border: none;
+            font-weight: 600;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #128c7e;
+            color: white;
+        }
+
+        footer {
+            margin-top: 25px;
+            font-size: 0.75rem;
+            color: #999;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="logo.png" alt="Logo Dr. Pedro Rizzo" class="logo-clinica">
+    
+    <h1>Dr. Pedro Rizzo</h1>
+    <span class="specialty">Cirurgia Ginecológica<br>Minimamente Invasiva</span>
+
+    <a href="https://wa.me/5517936198002" class="contact-link btn-whatsapp" target="_blank">
+        Contato via WhatsApp
+    </a>
+
+    <a href="mailto:contato@pedrorizzo.com.br" class="contact-link">
+        contato@pedrorizzo.com.br
+    </a>
+
+    <a href="https://www.instagram.com/drpedrorizzo" class="contact-link" target="_blank">
+        @drpedrorizzo no Instagram
+    </a>
+
+    <footer>
+        CRM-SP 158.148 | RQE 65406<br>
+        Barretos - SP
+    </footer>
+</div>
+
+</body>
+</html>
